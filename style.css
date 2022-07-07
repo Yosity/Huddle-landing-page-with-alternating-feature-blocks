@@ -1,0 +1,140 @@
+body {
+    background-color: rgba(248, 248, 248, 0.644);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+header,main,footer {
+    padding: 0 8%;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: url("images/bg-hero-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsl(193, 100%, 96%);
+
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.header-logo {
+    width: 8rem;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+}
+.header-button {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    padding: 0.4rem;
+    min-width: 8rem;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px 0 rgba(82, 81, 81, 0.26);
+}
+
+header h1 {
+    font-size: 1.9rem;
+    color: hsl(192, 100%, 9%);
+}
+header p {
+    color: hsl(192, 100%, 9%);
+    font-size: 1.2rem;
+}
+header .pink-button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: bold;
+    padding: 0.9rem;
+    width: 15rem;
+    
+    border: none;
+    border-radius: 1.5rem;
+
+    margin: 1rem 0 4rem 0;
+
+}
+header .mockup-container {
+    width: 100%;
+}
+header .mockup-container img {
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 17rem;
+}
+main .section-1,
+main .section-2,
+main .section-3{
+   background-color: white;
+    padding: 12% 8%;
+
+   border-radius: 1rem;
+   box-shadow: 0 0 8px 0 rgba(211, 208, 208, 0.572);
+}
+main img {
+    width: 100%;
+    display: block;
+    margin-bottom: 3rem;
+}
+main h2 {
+    color: hsl(192, 100%, 9%);
+}
+main p {
+    color: hsl(208, 11%, 55%);
+    margin: 0 0.5rem;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    position: relative;
+    padding-top: 4rem;
+}
+footer .positioned-container {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 80%;
+    max-width: 30rem;
+    border-radius: 0.8rem;
+    padding: 2rem 1rem;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer .positioned-container button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: bold;
+    padding: 0.9rem 0;
+    width: 14rem;
+    
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 6px 2px rgba(82, 81, 81, 0.26);
+}
+footer .logo{
+    background-color: white;
+    filter: opacity(0.4);
+
+}
